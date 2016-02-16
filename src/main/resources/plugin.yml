@@ -1,0 +1,4 @@
+name: NoirAuction
+main: com.github.margeobur.NoirAuction.NoirAuction
+version: 0.0.1
+commands:

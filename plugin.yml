@@ -1,0 +1,17 @@
+name: NoirAuction
+main: com.github.margeobur.NoirAuction.NoirAuction
+version: 0.0.1
+commands:
+  auction:
+    description: The set of auctions commands for NoirAuction.
+    usage: |
+      /auction display will show you the info for an auction. 
+      /auction start will start an auction once everything is set.
+    permission: <plugin name>.auction
+    permission-message: You don't have <permission>
+  auctionadmin:
+    description: The set of admin commands for NoirAuction.
+    usage: |
+      /auctionadmin terminate will force-close an auction
+      /auctionadmin reload will reload NoirAuction
+      /auctionadmin adjust <value> <amount> will allow admins to set certain values
